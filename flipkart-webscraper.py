@@ -12,9 +12,9 @@ URL = "https://www.flipkart.com/search?q=cell%20phone&otracker="\
 "search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
 
 
-for page_iterator in range(10): #for loop iterates through first 10 pages of website
+for page_iterator in range(10):                         #for loop iterates through first 10 pages of website
     
-    page = requests.get(URL)    #creating requests object
+    page = requests.get(URL)                            #creating requests object
 
     soup = BeautifulSoup(page.content, "html.parser")   #creating BeautifulSoup object
     
