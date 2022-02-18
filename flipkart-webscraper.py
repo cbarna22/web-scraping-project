@@ -1,5 +1,5 @@
 #Python Web Scraping Project
-#This script scrapes that website Flipkart for cell phone product data.
+#This script scrapes the website Flipkart for cell phone product data.
 #The data includes product names, prices, and ratings.
 #Libraries used: requests and BeautifulSoup
 
